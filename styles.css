@@ -1,10 +1,10 @@
-.title {
+.akan-title {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.title p {
+.akan-title p {
     color: orchid;
     font-size: 90px;
     text-transform: capitalize;
