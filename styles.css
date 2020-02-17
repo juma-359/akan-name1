@@ -1,3 +1,8 @@
+body{
+    background-image: url('https://bit.ly/2V8uJPR');
+    margin: 0;
+    background-size: cover;
+}
 .akan-title {
     position: absolute;
     top: 50%;
@@ -64,8 +69,8 @@ form .submit {
     /* text-decoration: none; */
 }
 .akan-title{
-    margin-top: 100px;
-    color: burlywood;
+    margin-top: 0;
+    color: purple;
     text-transform: none;
     transition: all 8s ease-in-out;
     text-align: center;
@@ -82,7 +87,6 @@ form .submit {
 }
 .akan-title p {
     font-size: 25px;
-    color: turquoise;
     margin-top: 15px;
     margin-left: 30px;
 
