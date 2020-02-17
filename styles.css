@@ -1,5 +1,5 @@
 body{
-    background-image: url('https://bit.ly/2V8uJPR');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url('https://bit.ly/2V8uJPR');
     margin: 0;
     background-size: cover;
 }
@@ -9,10 +9,23 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.akan-title h1 {
+    font-size: 40px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 30%;
+    text-transform: uppercase;
+    text-decoration: underline darkgoldenrod;
+    /* text-transform: uppercase; */
+    /* text-align: center; */
+}
 .akan-title p {
     color: orchid;
     font-size: 90px;
     text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 30px;
 }
 form .submit {
     background-color: midnightblue;
@@ -70,30 +83,15 @@ form .submit {
 }
 .akan-title{
     margin-top: 0;
-    color: purple;
+    color: red;
     text-transform: none;
     transition: all 8s ease-in-out;
     text-align: center;
 }
-.akan-title h1 {
-    font-size: 40px;
-    line-height: 15px;
-    margin-top: 5px;
-    margin-left: 30%;
-    text-transform: uppercase;
-    text-decoration: underline darkgoldenrod;
-    /* text-transform: uppercase; */
-    /* text-align: center; */
-}
-.akan-title p {
-    font-size: 25px;
-    margin-top: 15px;
-    margin-left: 30px;
 
-    /* text-align: center; */
-}
-/* input{
-    height: 55px;
+input{
+    /* height: 55px; */
     text-align: center;
-    width: 120px;
-} */
+    /* width: 120px; */
+    color: orange;
+}
