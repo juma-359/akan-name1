@@ -1,0 +1,95 @@
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title p {
+    color: orchid;
+    font-size: 90px;
+    text-transform: capitalize;
+}
+form .submit {
+    background-color: midnightblue;
+    color: honeydew;
+    width: 50%;
+    border-radius: 50px;
+    border-color:transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    height: 45px;
+    margin-top: 20px;
+    /* text-decoration: none; */
+}
+.form {
+    width: 600px;
+    border: none;
+    outline: steelblue;
+    background-color: transparent;
+    border-bottom: 2px solid blue;
+    color: grey;
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+form{
+    margin-top: 40px;
+    color: limegreen;
+    transition: all 8s ease-in-out;
+    margin-left: 15%;
+    /* align-items: center; */
+    /* text-decoration: none; */
+    /* width: 100px; */
+
+}
+form .submit {
+    background-color: midnightblue;
+    color: honeydew;
+    width: 50%;
+    border-radius: 50px;
+    border-color:transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    height: 45px;
+    margin-top: 20px;
+    /* text-decoration: none; */
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* text-decoration: none; */
+}
+.akan-title{
+    margin-top: 100px;
+    color: burlywood;
+    text-transform: none;
+    transition: all 8s ease-in-out;
+    text-align: center;
+}
+.akan-title h1 {
+    font-size: 40px;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 30%;
+    text-transform: uppercase;
+    text-decoration: underline darkgoldenrod;
+    /* text-transform: uppercase; */
+    /* text-align: center; */
+}
+.akan-title p {
+    font-size: 25px;
+    color: turquoise;
+    margin-top: 15px;
+    margin-left: 30px;
+
+    /* text-align: center; */
+}
+/* input{
+    height: 55px;
+    text-align: center;
+    width: 120px;
+} */
